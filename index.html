@@ -80,9 +80,11 @@
 
             if(randomNumber == insertNumber){
                 document.getElementById('pinMatch').style.display = "block";
+                document.getElementById('pinNotMatch').style.display = "none";
             }
             else{
                 document.getElementById('pinNotMatch').style.display = "block";
+                document.getElementById('pinMatch').style.display = "none";
 
             let tryPermit = document.getElementById('tryLeft').innerText -= 1 ;
               if( tryPermit == 0){
